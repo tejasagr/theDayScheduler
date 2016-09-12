@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+  	<welcome-file-list>
+		<welcome-file>Authentication</welcome-file>
+	</welcome-file-list>
+    
+    <!-- Authentication Servlet -->
+	<servlet>
+		<servlet-name>Authentication</servlet-name>
+		<servlet-class>com.thedayscheduler.Authentication</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Authentication</servlet-name>
+		<url-pattern>/authentication</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Authentication Callback Servlet -->
+	<servlet>
+		<servlet-name>AuthenticationCallback</servlet-name>
+		<servlet-class>com.thedayscheduler.AuthenticationCallback</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AuthenticationCallback</servlet-name>
+		<url-pattern>/oauth2callback</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Event Creation -->
+	<servlet>
+		<servlet-name>EventCreation</servlet-name>
+		<servlet-class>com.thedayscheduler.EventCreation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EventCreation</servlet-name>
+		<url-pattern>/EventCreation</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Event Creation Adv -->
+	<servlet>
+		<servlet-name>EventCreationAdv</servlet-name>
+		<servlet-class>com.thedayscheduler.EventCreationAdv</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EventCreationAdv</servlet-name>
+		<url-pattern>/EventCreationAdv</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Event Deletion -->
+	<servlet>
+		<servlet-name>EventDeletion</servlet-name>
+		<servlet-class>com.thedayscheduler.EventDeletion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EventDeletion</servlet-name>
+		<url-pattern>/EventDeletion</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Event Deletion Time Bound -->
+	<servlet>
+		<servlet-name>EventDeletionTimeBound</servlet-name>
+		<servlet-class>com.thedayscheduler.EventDeletionTimeBound</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EventDeletionTimeBound</servlet-name>
+		<url-pattern>/EventDeletionTimeBound</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Event Deletion Unbound -->
+	<servlet>
+		<servlet-name>EventDeletionUnbound</servlet-name>
+		<servlet-class>com.thedayscheduler.EventDeletionUnbound</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EventDeletionUnbound</servlet-name>
+		<url-pattern>/EventDeletionUnbound</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

@@ -1,0 +1,225 @@
+/*.whiteoutline {
+	 border: 3px solid white;
+}*/
+
+.clearfloat {
+	clear: both;
+}
+
+.floatleft {
+	float: left;
+	width: 250px;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+
+.incomplete {
+	font-size: 150%;
+	font-weight: bold;
+	background-color: #dc0000;
+	height: 300px;
+	line-height: 200%;
+	text-align: center;
+	font-family: "Georgia", serif;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.box {
+	border: 1px solid black;
+}
+
+body {
+	background-image: url('../images/gradient.png');
+	background-repeat: repeat-x;
+	background-color: grey;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Arial;
+	color: #dc0000;
+	text-align: center;
+	margin: 0px;
+	font-size: 311%;
+	padding: 20px 15px;
+	
+}
+
+h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	font-size: 150%;
+	display: inline;
+}
+
+h3 {
+	display: inline;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 100%;
+}
+
+.current {
+	color: #dc0000;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.website {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100px;
+	width: 600px;
+	margin: auto;
+	background-color: #EEEEEE;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+.logo {
+	height: 90px;
+	margin: 5px 5px;
+	float: left;
+}
+
+.navbar {
+	font-family: Century Gothic, Trebuchet MS;
+	color: #EEEEEE;
+	font-size: 120%;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #EEEEEE;
+	width: 930px;
+	border-collapse: collapse;
+	background-color: #dc0000;
+}
+
+.navbut {
+	height: 30px;
+	width: 167px;
+	border: 3px solid #EEEEEE;
+}
+
+.navhover:hover {
+	background: #EEEEEE;
+	text-shadow: none;
+	color: #dc0000;
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+}
+	
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: #dc0000;
+	text-decoration: inherit;
+}
+
+a: active {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.quickform {
+	line-height: 200%;
+	text-align: center;
+	font-family: "Georgia", serif;
+	font-size: 90%;
+}
+
+.eventCreator {
+	background-color: #dc0000;
+	padding: 25px;
+	line-height: 300%;
+	text-align: center;
+	font-family: "Georgia", serif;
+}
+
+.sidebar {
+	width: 280px;
+	padding: 10px;
+	font-family: Garamond, serif;
+	background-color: #dc0000;
+}
+
+.note {
+	font-size: 80%;
+	margin: 17px;
+	display: block;
+	font-style: italic;
+	font-family: Arial, serif;
+}
+
+.content {
+	width: 600px;
+	height: 420px;
+	position: relative;
+	margin: 0px 0px 0px 23px;
+}
+
+.wrapper {
+	text-align: center;
+	margin: auto;
+}
+
+.calendar {
+	display: inline-block;
+}
+
+.footer {
+	background-color: #DDDDDD;
+	height: 50px;
+	margin: 10px 0px 20px 0px;
+}
+
+.footrow1 {
+	height: 50%;
+	background-color: #CCCCCC;
+	width: 320px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	font-family: Century Gothic;
+	font-size: 90%;
+}
+
+.footrow2 {
+	height: 50%;
+	width: 100%;
+	text-align: center;
+	float: left;
+	line-height: 26px;
+	font-family: Georgia;
+	font-size: 75%
+}
+
+div.footer a:hover {
+	font-size: 100%;
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+}
